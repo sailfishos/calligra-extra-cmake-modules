@@ -16,6 +16,7 @@ Extra CMake modules for Calligra
 %setup -q -n %{name}-%{version}/%{name}
 
 %build
+mkdir build && cd build
 cmake -DCMAKE_INSTALL_PREFIX=/usr ..
 make %{?_smp_mflags}
 
