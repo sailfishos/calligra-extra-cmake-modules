@@ -5,7 +5,7 @@ Summary:        Extra CMake modules for Calligra
 License:        LGPLv2
 Group:          System/Libraries
 Url:            http://www.kde.org/
-Source0:        extra-cmake-modules.tar.gz
+Source0:        %{name}-%{version}.tar.gz
 BuildRequires:  fdupes, cmake
 #Requires:       
 
