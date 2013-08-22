@@ -1,5 +1,5 @@
 Name:           calligra-extra-cmake-modules
-Version:        0.0.1
+Version:        0.0.8
 Release:        0
 Summary:        Extra CMake modules for Calligra
 License:        LGPLv2
