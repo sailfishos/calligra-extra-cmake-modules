@@ -21,9 +21,9 @@ cmake -DCMAKE_INSTALL_PREFIX=/usr ..
 make %{?_smp_mflags}
 
 %install
+cd build
 make install DESTDIR=%{buildroot}
 
 %files
-%{_mandir}/man7/extra-cmake-modules.7
-%{_datadir}/ECM-0.0.8/doc/
-%{_datadir}/ECM-0.0.8/modules
+/usr/man/man7/extra-cmake-modules.*
+%{_datadir}/ECM-0.0.8
